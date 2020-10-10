@@ -61,18 +61,18 @@ based off of a percentage of total district students.
 	
 Several changes needed to be made to the district analysis in order to properly display student standardized testing performance.
 		
-	1. Removal of all ninth-grade math and reading scores from Thomas High school in the student data dataframe before merging
-	   with the school data dataframe.
+1. Removal of all ninth-grade math and reading scores from Thomas High school in the student data dataframe before merging
+   with the school data dataframe.
 
-	2. Finding the new total student count for Thomas High School by subtracting the total number of ninth-graders from the
-	   original total student count.
+2. Finding the new total student count for Thomas High School by subtracting the total number of ninth-graders from the
+   original total student count.
 		
-	3. Adjusting the percentage calculations for Thomas High School in the per school summary dataframe. Without recalculating
-	   the total student count for Thomas High School, there percentage of students passing math, reading, and both dropped
-	   significantly. And if the new adjusted percentages weren't replaced with the proper numbers after removing the ninth-graders
-	   scores, the per school summary dataframe would have shown grossly under performing scores for Thomas High School.
-	   Causing issues for those trying to help correct the false poor student performance.
+3. Adjusting the percentage calculations for Thomas High School in the per school summary dataframe. Without recalculating
+   the total student count for Thomas High School, there percentage of students passing math, reading, and both dropped
+   significantly. And if the new adjusted percentages weren't replaced with the proper numbers after removing the ninth-graders
+   scores, the per school summary dataframe would have shown grossly under performing scores for Thomas High School.
+   Causing issues for those trying to help correct the false poor student performance.
 
-	4. Lastly, re-analyzing all the comparative data between schools, size of schools, spending at each school, and charter
-	   vs. district schools. Even though no difference ultimately resulted, making sure no changes occurred was necessary.
+4. Lastly, re-analyzing all the comparative data between schools, size of schools, spending at each school, and charter
+   vs. district schools. Even though no difference ultimately resulted, making sure no changes occurred was necessary.
 	
